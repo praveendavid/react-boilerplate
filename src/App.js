@@ -7,7 +7,6 @@ function App() {
   const routes = useRoutes(approutes());
   return (
     <div>
-      emmet
       <MainLayout>{routes}</MainLayout>
     </div>
   );
